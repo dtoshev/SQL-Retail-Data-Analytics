@@ -7,3 +7,9 @@ This repository contains my SQL data analytics queries and solutions. The focus 
 - **Dataset:** `sql_store` (Retail store database schema)
 - **Objective:** Segment customers into distinct loyalty tiers (Gold, Silver, Bronze) based on their accumulated points to support targeted marketing campaigns.
 - **Key SQL Concepts Used:** Conditional logic (`CASE WHEN`), Data filtering and sorting (`ORDER BY`).
+
+## Project 2: Undelivered Orders Analysis
+- **File:** `undelivered_orders_analysis.sql`
+- **Dataset:** `sql_store`
+- **Objective:** Extract all pending or shipped orders that are not yet fully processed (status != 1) to monitor logistical delays and verify if a shipper has been assigned.
+- **Key SQL Concepts Used:** Table relationships using `JOIN` and `LEFT JOIN` to handle missing values (`NULL`), using the `USING` keyword, and data filtering (`WHERE`).
